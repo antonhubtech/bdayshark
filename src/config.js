@@ -14,7 +14,7 @@ Malapit na tayo sa totohanang buhay and I hope G will a bit kind to us na bigyan
 Again, Happiest birthday to my sweet but roar and kind AJ, I love you so much.`
 
 export const LETTER_HEADING = 'Happy Birthday to...'
-export const LETTER_SIGNOFF = 'Always yours, anton'
+export const LETTER_SIGNOFF = 'Always yours, Anton'
 // Optional: put your name here (leave empty to show only the little heart)
 export const LETTER_SIGNATURE = ''
 
