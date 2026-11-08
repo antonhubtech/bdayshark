@@ -6,8 +6,8 @@ import PinInput from './PinInput'
 import { VALID_CODES } from '../config'
 
 const EMPTY = ['', '', '', '']
-const ERROR_TEXT = "Hmm... that's not quite the right key. Try again, sweetheart. 💙"
-const INCOMPLETE_TEXT = 'Four little digits, please. 💙'
+const ERROR_TEXT = "Hmm... mali naman ihhhhh. 💙"
+const INCOMPLETE_TEXT = 'Four little digits, pede? pede poo?. 💙'
 
 /**
  * The first page. All state here (including the typed digits) lives only in this component,
@@ -85,10 +85,10 @@ export default function LockScreen({ onUnlocked }) {
         transition={{ duration: 0.7 }}
       >
         <p className="font-serif text-xl font-medium text-ink sm:text-2xl" style={{ textShadow: '0 1px 12px rgba(255,255,255,0.9)' }}>
-          Someone has a message waiting for you. 💙
+          Hello? Peñabatan na po ba to?
         </p>
         <p className="mt-1.5 font-serif text-base italic text-ink/80 sm:text-lg" style={{ textShadow: '0 1px 10px rgba(255,255,255,0.9)' }}>
-          But first, are you the one who can unlock it?
+          wait... are you her or here kasi nakiki chismis ka?? jk.
         </p>
 
         <form
@@ -132,7 +132,7 @@ export default function LockScreen({ onUnlocked }) {
         style={{ textShadow: '0 1px 10px rgba(255,255,255,0.9)' }}
         animate={phase === 'opening' ? { opacity: 0 } : { opacity: 1 }}
       >
-        Made with love, just for you. ♡
+        YOOOOOHOOOOOOOOOOO. ♡
       </motion.footer>
     </motion.main>
   )
