@@ -115,7 +115,7 @@ export default function Letter({ onClose }) {
                 style={{ background: 'linear-gradient(135deg,#a3c1e6 0%,#7e9fd0 100%)' }}
               >
                 <span className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/45 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
-                <span className="relative">Close this little letter ♡</span>
+                <span className="relative">Close♡</span>
               </motion.button>
             </div>
           </motion.div>
